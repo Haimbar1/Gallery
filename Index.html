@@ -1,0 +1,84 @@
+<!--Add styles in <head>: -->
+<head>
+    <meta name="viewport" content="width=device-width intial-scale=1.0">
+	<title> Dganit Bar's Art Galary </title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!--link rel="stylesheet" href="https://maxcd.bootstarpcdn.com/bootstarp/3.3.7/css/boootstap.min.css" /-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+</head>
+<!--   Add script right before closing </body> tag, and initialize AOS:-->
+   
+
+    <header class="main-header">   
+    <h1> <span>Dganit's Bar Art Galary </span> </h1>
+    <p>    text  about the gallery </p>
+    </header>
+
+    <main class="container" ">
+<nav class="navbar navbar-default navbar-fixed-top" rol="navigatiom"></nav>
+
+        <section class="card">
+            <img src="img/LeafPlat1.jpg" alt="paint1">
+            <div>
+                <h3>Paint 1 title</h3>
+                <p> text about pain 1</p>
+            </div>
+        </section>
+
+        <section class="card"  data-aos="fade-right" >
+                <img src="img/LeafPlat2.jpg" alt="paint1">
+                <div>
+                    <h3>Paint 2 title</h3>
+                    <p> text about pain 1</p>
+                </div>
+        </section>
+
+        <section class="card" data-aos="fade-left">
+                <img src="img/LeafPlat3.jpg" alt="paint1">
+                <div>
+                    <h3>Paint 3 title</h3>
+                    <p> text about pain 1</p>
+                </div>
+        </section>
+        <section class="card" data-aos="fade-right">
+                    <img src="img/3.jpg" alt="paint1">
+                    <div>
+                        <h3>Paint 3 title</h3>
+                        <p> text about pain 1</p>
+                    </div>
+        </section>
+        
+        <section class="card" data-aos="fade-left">
+                <img src="img/1.jpg" alt="paint1">
+                <div>
+                    <h3>Paint 3 title</h3>
+                    <p> text about pain 1</p>
+                </div>
+    </section>
+
+    </main>
+
+
+
+
+    </main>
+
+<body>
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+
+          offset: 200,
+          duration:1000,
+          easing: 'ease-in-out'
+      });
+    </script>
+  </body>
+    
